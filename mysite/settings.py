@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders'
 ]
-
+CORS_ALLOW_ALL_ORIGINS = True
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -143,3 +143,6 @@ EMAIL_HOST_USER = 'shreyasameerbhoir16@gmail.com'
 EMAIL_HOST_PASSWORD ='bfquvufqniqjgpjh'
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 CORS_ALLOW_ALL_ORIGINS = True 
+CORS_ALLOWED_ORIGINS = [
+  "https://www.consennse.com"
+]
