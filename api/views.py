@@ -30,7 +30,7 @@ class FormCreate(generics.ListCreateAPIView):
             Message: {form_instance.message}
             """,
             from_email="shreyasameerbhoir16@gmail.com",  # Replace with your email
-            recipient_list=["shreyaahb@gmail.com"],  # Replace with your email
+            recipient_list=["urs.senn@consennse.com"],  # Replace with your email
         )
 
 class FormRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
